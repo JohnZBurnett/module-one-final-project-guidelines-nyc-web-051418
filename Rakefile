@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ENV["SINATRA_ENV"] ||= "development"
 
 require_relative './config/environment'
@@ -24,12 +23,3 @@ desc "Migrate the db"
 
 desc "drop and recreate the db"
 task :reset => [:drop, :migrate]
-=======
-require_relative 'config/environment'
-require 'sinatra/activerecord/rake'
-
-desc 'starts a console'
-task :console do
-  Pry.start
-end
->>>>>>> 2b3f354855b87eae153411f8348883916ad21425
