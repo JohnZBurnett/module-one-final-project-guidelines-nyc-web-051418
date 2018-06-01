@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 source "https://rubygems.org"
 
 gem 'json'
@@ -17,3 +18,12 @@ gem "rest-client"
 gem 'haversine'
 gem 'tty-progressbar'
 gem 'pastel'
+=======
+# frozen_string_literal: true
+source "https://rubygems.org"
+
+gem "sinatra-activerecord"
+gem "sqlite3"
+gem "pry"
+gem "require_all"
+>>>>>>> 2b3f354855b87eae153411f8348883916ad21425

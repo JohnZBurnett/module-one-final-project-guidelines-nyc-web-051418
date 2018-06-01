@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require "bundler/setup"
 require "sinatra/activerecord"
 
@@ -22,3 +23,10 @@ ActiveRecord::Base.establish_connection(connection_details)
 
 old_logger = ActiveRecord::Base.logger
 ActiveRecord::Base.logger = nil
+=======
+require 'bundler'
+Bundler.require
+
+ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'db/development.db')
+require_all 'lib'
+>>>>>>> 2b3f354855b87eae153411f8348883916ad21425
