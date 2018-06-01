@@ -100,7 +100,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
   activerecord
   colorize
   haversine
@@ -121,12 +120,3 @@ DEPENDENCIES
 
 BUNDLED WITH
    1.16.2
-=======
-  pry
-  require_all
-  sinatra-activerecord
-  sqlite3
-
-BUNDLED WITH
-   1.14.6
->>>>>>> 2b3f354855b87eae153411f8348883916ad21425
